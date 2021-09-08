@@ -69,4 +69,4 @@ class Bot(Client):
             TEMP_DOWNLOAD_DIRS,
             ignore_errors=True
         )
-        self.LOGGER(__name__).info("@GetSongs stopped. Bye.")
+        self.LOGGER(__name__).info("@rosebakthan stopped. Bye.")
