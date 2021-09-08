@@ -70,7 +70,7 @@ async def hc_stream_radio_(client: Bot, message: Message):
         _chat_id = one_radio.get("CHANNEL")
         join_as = one_radio.get("JOINAS")
         stream_url = one_radio.get("URL")
-        group_call_title = one_radio.get("TITLE", "@GetSongs")
+        group_call_title = one_radio.get("TITLE", "@rosebakthan")
 
         if _chat_id.startswith("-100"):
             _chat_id = int(_chat_id)
@@ -180,7 +180,7 @@ async def hc_stream_radio_stop(client: Bot, message: Message):
 
     for one_radio in all_radio_stations:
         _chat_id = one_radio.get("CHANNEL")
-        group_call_title = one_radio.get("TITLE", "@PlayAStream")
+        group_call_title = one_radio.get("TITLE", "@Malayalam_Chatting")
 
         if _chat_id.startswith("-100"):
             _chat_id = int(_chat_id)
